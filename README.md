@@ -7,38 +7,38 @@ Time spent: **9** hours spent in total
 ## Pentesting Report
 
 1. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
-  - [ ] GIF Walkthrough: <img src='https://imgur.com/kKY2oWQ' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
-  - [ ] Steps to recreate: 
+  - [X] GIF Walkthrough: <img src='https://imgur.com/kKY2oWQ.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
+  - [X] Steps to recreate: 
           - Create a new post
           - In the text area add the html tag <a> with alert in it, instead of href
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
 2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: <img src='https://imgur.com/bdQFOZQ' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
-  - [ ] Steps to recreate: 
+  - [X] GIF Walkthrough: <img src='https://imgur.com/bdQFOZQ.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
+  - [X] Steps to recreate: 
           - Create a new post
           - In the text area add tag similar to this: <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2?rev=33360)
+  - [X] Affected source code:
+    - [Link 2](https://core.trac.wordpress.org/browser/branches/4.2?rev=33360)
 3. (Required) Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: <img src='https://imgur.com/H7V8V1f.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
-  - [ ] Steps to recreate:
+  - [X] GIF Walkthrough: <img src='https://imgur.com/H7V8V1f.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
+  - [X] Steps to recreate:
           - Create a new post
           - In the text area add a spliced youtube link similar to this: https://youtube[.]com/watch?v=abc<svg onload=alert(1)>
-  - [ ] Affected source code:
-    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+  - [X] Affected source code:
+    - [Link 3](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 
 ## Assets
 
@@ -57,7 +57,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [XXXX] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
