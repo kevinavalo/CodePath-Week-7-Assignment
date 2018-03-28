@@ -35,7 +35,7 @@ Time spent: **9** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: <blockquote class="imgur-embed-pub" lang="en" data-id="a/iwYzT"><a href="//imgur.com/iwYzT"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+  - [ ] GIF Walkthrough: [Imgur](https://i.imgur.com/H7V8V1f.gifv)
   - [ ] Steps to recreate:
           - Create a new post
           - In the text area add a spliced youtube link similar to this: https://youtube[.]com/watch?v=abc<svg onload=alert(1)>
