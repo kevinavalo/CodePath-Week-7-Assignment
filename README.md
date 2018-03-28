@@ -1,5 +1,3 @@
-# CodePath-Week-7-Assignment
-
 # Project 7 - WordPress Pentesting
 
 Time spent: **9** hours spent in total
@@ -35,7 +33,7 @@ Time spent: **9** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: [Imgur](https://i.imgur.com/H7V8V1f.gifv)
+  - [ ] GIF Walkthrough: <img src='https://imgur.com/H7V8V1f.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
   - [ ] Steps to recreate:
           - Create a new post
           - In the text area add a spliced youtube link similar to this: https://youtube[.]com/watch?v=abc<svg onload=alert(1)>
